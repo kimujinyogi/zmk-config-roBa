@@ -5,6 +5,7 @@
 
 // https://qiita.com/Reotech/items/e048073b3c5831d3e1c2
 // #includeのあとのあたりにスクロール量変更の定義を追記
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
 &mt {
@@ -70,13 +71,16 @@
 
     behaviors {
         // 追加した (j_kim)
+
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
+
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -108,8 +112,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
-
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         NUM {
@@ -128,8 +130,6 @@
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp INT_MUHENKAN  &kp INT_HENKAN  &trans            &trans             &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                                 &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
