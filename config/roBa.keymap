@@ -106,7 +106,7 @@
         ARROW {
             bindings = <
 &kp ESC    &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                    &trans    &kp MINUS  &kp PLUS      &kp BACKSLASH  &kp BACKSPACE
-&kp HOME   &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp INT1             &kp INT2  &kp UP     &kp ASTERISK  &trans         &kp RETURN
+&kp HOME   &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp INT1             &kp INT2  &kp UP     &kp ASTERISK  &kp GRAVE      &kp RETURN
 &kp LSHFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp INTERNATIONAL_1  &kp LEFT  &kp DOWN   &kp RIGHT     &trans         &trans
 &trans     &trans                  &trans          &trans                   &trans   &trans      &trans               &trans                                            &trans
             >;
