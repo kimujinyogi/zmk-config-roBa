@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - {t: ▽, type: trans}
   - '-'
   - H
   - J
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - {t: Shortcut, h: toggle}
+  - {t: ESC, h: Shortcut}
   - LEFT SHIFT
   - LEFT ALT
   - LCMD
@@ -43,7 +43,7 @@ layers:
   - LCTRL
   - {t: '&to_layer_0 SPACE', h: Symbol}
   - {t: ENTER, h: ARROW}
-  - {t: '&to_layer_0 DEL', h: bt}
+  - {t: BACKSPACE, h: bt}
   FunNNum:
   - F22
   - KP 7
@@ -133,7 +133,7 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   ARROW:
-  - ESCAPE
+  - ESC
   - Ctl+Sft+TAB
   - UP ARROW
   - Ctl+TAB
@@ -272,8 +272,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - Meh+A
   - Meh+S
@@ -283,15 +283,59 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - VOL DN
+  - VOL UP
   - {t: ▽, type: trans}
   - Meh+Z
   - Meh+X
-  - Meh+C
-  - Meh+V
+  - Meh+-
+  - Alt+Ctl++
   - Sft+Alt+SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - STOP
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '7':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
