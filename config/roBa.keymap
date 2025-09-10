@@ -140,10 +140,10 @@
 
         AS {
             bindings = <
-&kp EXCL   &kp LC(AT_SIGN)  &kp HASH  &kp LC(DOLLAR)  &kp PRCNT                               &trans            &trans           &kp MINUS  &kp EQUAL    &kp BSLH
-&kp CARET  &kp AMPS         &kp STAR  &kp LPAR        &kp RPAR   &trans        &kp BACKSPACE  &kp GRAVE         &kp LS(LC(TAB))  &kp UP     &kp LC(TAB)  &kp STAR
-&trans     &trans           &trans    &trans          &trans     &kp LBKT      &kp RBKT       &kp LG(LA(LEFT))  &kp LEFT         &kp DOWN   &kp RIGHT    &kp LA(LG(RIGHT))
-&trans     &trans           &trans    &trans          &trans     &trans        &trans         &trans                                                     &trans
+&kp EXCL   &kp AT    &kp HASH  &kp DOLLAR  &kp PRCNT                          &trans            &trans           &kp MINUS  &kp EQUAL    &kp BSPC
+&kp CARET  &kp AMPS  &kp STAR  &kp LPAR    &kp RPAR   &trans        &kp BSLH  &kp GRAVE         &kp LS(LC(TAB))  &kp UP     &kp LC(TAB)  &kp STAR
+&trans     &trans    &trans    &trans      &trans     &kp LBKT      &kp RBKT  &kp LG(LA(LEFT))  &kp LEFT         &kp DOWN   &kp RIGHT    &kp LA(LG(RIGHT))
+&trans     &trans    &trans    &trans      &trans     &trans        &trans    &trans                                                     &trans
             >;
         };
 
