@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - Sft+Gui+S
   - '-'
   - H
   - J
@@ -151,8 +151,8 @@ layers:
   - {t: ▽, type: trans}
   - INT1
   - INT2
-  - UP
   - '*'
+  - UP
   - '`'
   - RETURN
   - LSHFT
@@ -161,11 +161,11 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INTERNATIONAL 1
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
