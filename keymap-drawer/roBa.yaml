@@ -134,22 +134,22 @@ layers:
   - '|'
   AS:
   - '!'
-  - Ctl+@
+  - '@'
   - '#'
-  - Ctl+$
+  - $
   - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
   - '='
-  - \
+  - BSPC
   - ^
   - '&'
   - '*'
   - (
   - )
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - \
   - '`'
   - Sft+Ctl+TAB
   - UP
