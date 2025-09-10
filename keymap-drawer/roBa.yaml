@@ -149,17 +149,17 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - '`'
   - Sft+Ctl+TAB
   - UP
   - Ctl+TAB
   - '*'
-  - Ctl+Sft+F1
-  - Sft+Gui+F2
   - {t: ▽, type: trans}
-  - Gui+Sft+4
-  - Sft+Ctl+Gui+4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - Gui+Alt+LEFT
@@ -196,9 +196,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - Meh+Z
   - Meh+X
   - Sft+Gui+F1
@@ -207,9 +207,9 @@ layers:
   - Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
