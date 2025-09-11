@@ -147,7 +147,7 @@ layers:
   - Meh+S
   - Gui+Sft+Ctl+4
   - Sft+Gui+4
-  - {t: ▽, type: trans}
+  - Meh+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+LEFT
@@ -159,7 +159,7 @@ layers:
   - Meh+X
   - Sft+Gui+F1
   - Gui+Sft+F2
-  - {t: ▽, type: trans}
+  - Meh+=
   - '['
   - ']'
   - Gui+Alt+LEFT
