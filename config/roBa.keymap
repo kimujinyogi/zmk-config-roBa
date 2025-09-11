@@ -51,7 +51,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <25 26>;
         };
 
         grave {
