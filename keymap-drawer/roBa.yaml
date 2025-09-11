@@ -154,7 +154,7 @@ layers:
   - Sft+Ctl+TAB
   - UP
   - Ctl+TAB
-  - Sft+Gui+RIGHT
+  - Gui+Ctl+RIGHT
   - Meh+Z
   - Meh+X
   - Sft+Gui+F1
