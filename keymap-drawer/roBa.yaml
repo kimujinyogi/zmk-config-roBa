@@ -313,15 +313,19 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
   k: '"'
 - p: [24, 25]
   k: '='
-- p: [9, 8]
+- p: [8, 7]
   k: '`'
 - p: [19, 20]
   k: '*'
 - p: [1, 2]
   k: '@'
+- p: [30, 31]
+  k: Sft+Ctl+SPACE
+- p: [9, 8]
+  k: BACKSPACE
+- p: [1, 0]
+  k: ESCAPE
