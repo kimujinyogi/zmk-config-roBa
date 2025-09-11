@@ -133,20 +133,20 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   AS:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Meh+Q
+  - Meh+W
+  - Meh+E
+  - Meh+R
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+[
   - {t: ▽, type: trans}
   - Gui+]
   - BSPC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Meh+A
+  - Meh+S
+  - Gui+Sft+Ctl+4
+  - Sft+Gui+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,10 +155,10 @@ layers:
   - UP
   - Ctl+TAB
   - Sft+Gui+RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Meh+Z
+  - Meh+X
+  - Sft+Gui+F1
+  - Gui+Sft+F2
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -198,7 +198,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
