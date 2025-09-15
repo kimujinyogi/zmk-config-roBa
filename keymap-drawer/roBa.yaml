@@ -151,9 +151,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+LEFT
-  - Sft+Ctl+TAB
+  - Sft+Gui+[
   - UP
-  - Ctl+TAB
+  - Gui+Sft+]
   - Gui+Ctl+RIGHT
   - Meh+Z
   - Meh+X
