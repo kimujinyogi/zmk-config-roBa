@@ -146,10 +146,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W     &kp E       &kp R      &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A               &kp S     &kp D       &kp F      &kp G      &trans                             &kp MINUS        &kp H        &kp J  &kp K      &kp L    &lt 5 RETURN
-&kp Z               &kp X     &kp C       &kp V      &kp B      &kp COLON                          &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LEFT_SHIFT ESC  &kp LALT  &kp LCMD    &kp LSHFT  &kp LCTRL  &lt_to_layer_0 1 LS(LC(SPACE))     &lt 3 BACKSPACE  &lt 2 SPACE                             &lt 6 DELETE
+&kp Q               &kp W     &kp E     &kp R      &kp T                                                           &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A               &kp S     &kp D     &kp F      &kp G      &trans                              &kp MINUS        &kp H        &kp J  &kp K      &kp L    &lt 5 RETURN
+&kp Z               &kp X     &kp C     &kp V      &kp B      &kp COLON                           &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT ESC  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt_to_layer_0 1 LS(LC(SPACE))      &lt 3 BACKSPACE  &lt 2 SPACE                             &lt 6 DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -175,10 +175,10 @@
 
         AS {
             bindings = <
-&kp LS(LA(LC(Q)))  &kp LS(LA(LC(W)))  &kp LS(LA(LC(E)))   &kp LS(LA(LC(R)))     &trans                                         &trans            &kp LG(LEFT_BRACKET)  &trans    &kp LG(RIGHT_BRACKET)  &kp BSPC
-&kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans        &trans    &kp LC(LG(LEFT))  &kp LS(LC(TAB))       &kp UP    &kp LC(TAB)            &kp LG(LC(RIGHT))
-&kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LG(F1))      &kp LG(LS(F2))        &kp LC(LA(LS(EQUAL)))  &kp LBKT      &kp RBKT  &kp LG(LA(LEFT))  &kp LEFT              &kp DOWN  &kp RIGHT              &kp LA(LG(RIGHT))
-&trans             &trans             &trans              &trans                &trans                 &trans        &trans    &trans                                                                   &kp DELETE
+&kp LS(LA(LC(Q)))  &kp LS(LA(LC(W)))  &kp LS(LA(LC(E)))   &kp LS(LA(LC(R)))     &trans                                         &trans            &kp LG(LEFT_BRACKET)      &trans    &kp LG(RIGHT_BRACKET)      &kp BSPC
+&kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans        &trans    &kp LC(LG(LEFT))  &kp LS(LG(LEFT_BRACKET))  &kp UP    &kp LG(LS(RIGHT_BRACKET))  &kp LG(LC(RIGHT))
+&kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LG(F1))      &kp LG(LS(F2))        &kp LC(LA(LS(EQUAL)))  &kp LBKT      &kp RBKT  &kp LG(LA(LEFT))  &kp LEFT                  &kp DOWN  &kp RIGHT                  &kp LA(LG(RIGHT))
+&trans             &trans             &trans              &trans                &trans                 &trans        &trans    &trans                                                                           &kp DELETE
             >;
         };
 
