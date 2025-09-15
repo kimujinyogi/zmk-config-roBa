@@ -38,9 +38,9 @@ layers:
   - {t: ESC, h: LEFT SHIFT}
   - LALT
   - LCMD
-  - {t: '&to_layer_0 LS(LC(SPACE))', h: FUNCTION}
   - LSHFT
   - LCTRL
+  - {t: '&to_layer_0 LS(LC(SPACE))', h: FUNCTION}
   - {t: BACKSPACE, h: AS}
   - {t: SPACE, h: NUM}
   - {t: DELETE, h: BT}
@@ -82,9 +82,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - RGUI
   - RALT
   - F12
