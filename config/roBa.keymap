@@ -113,6 +113,16 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <19 20>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <6 7>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
