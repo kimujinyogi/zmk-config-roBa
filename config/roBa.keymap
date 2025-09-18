@@ -162,10 +162,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans    &trans         &trans                          &kp F1        &kp F2     &kp F3     &kp F4  &kp F5
-&trans  &trans  &kp HOME  &kp PAGE_UP    &trans    &trans      &kp F13   &kp F6        &kp F7     &kp F8     &kp F9  &kp F10
-&trans  &trans  &kp END   &kp PAGE_DOWN  &kp INT1  &trans      &trans    &kp INT_KANA  &kp RSHFT  &kp RCTRL  &trans  &kp F11
-&trans  &trans  &trans    &trans         &trans    &trans      &kp RGUI  &kp RALT                                    &kp F12
+&none  &none  &none     &none          &none                         &kp F1        &kp F2  &kp F3  &kp F4  &kp F5
+&none  &none  &kp HOME  &kp PAGE_UP    &none     &none      &kp F13  &kp F6        &kp F7  &kp F8  &kp F9  &kp F10
+&none  &none  &kp END   &kp PAGE_DOWN  &kp INT1  &none      &none    &kp INT_KANA  &none   &none   &none   &kp F11
+&none  &none  &none     &none          &none     &none      &none    &none                                 &kp F12
             >;
         };
 
@@ -189,19 +189,19 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &trans         &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans         &trans    &mkp MB1  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LC(LEFT)  &kp LC(RIGHT)  &mkp MB3  &mkp MB4  &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                       &trans
+&none   &none   &none   &none   &none                            &none          &none  &none     &none     &none
+&none   &none   &none   &none   &none   &none      &none         &none          &none  &mkp MB1  &mkp MB2  &none
+&none   &none   &none   &none   &none   &none      &kp LC(LEFT)  &kp LC(RIGHT)  &none  &none     &none     &none
+&trans  &trans  &trans  &trans  &trans  &none      &none         &none                                     &none
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&none  &none  &none  &none  &none                    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none                       &none
             >;
         };
 
