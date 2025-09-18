@@ -123,6 +123,11 @@
             bindings = <&kp PLUS>;
             key-positions = <17 18>;
         };
+
+        layermouse {
+            bindings = <&mo 4>;
+            key-positions = <41 40>;
+        };
     };
 
     macros {
