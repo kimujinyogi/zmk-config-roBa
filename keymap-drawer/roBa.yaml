@@ -34,8 +34,8 @@ layers:
   - M
   - ','
   - .
-  - /
-  - {t: Ctl+Gui+SPACE, h: LEFT SHIFT}
+  - {t: /, h: RSHIFT}
+  - {t: Ctl+Sft+SPACE, h: LEFT SHIFT}
   - LALT
   - LCMD
   - LSHFT
