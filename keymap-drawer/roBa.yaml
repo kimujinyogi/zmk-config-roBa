@@ -40,10 +40,10 @@ layers:
   - LCMD
   - LSHFT
   - LCTRL
-  - {t: '&to_layer_0 ESCAPE', h: FUNCTION}
-  - {t: BACKSPACE, h: AS}
+  - {t: '&to_layer_0 LANG2', h: FUNCTION}
+  - {t: LANG1, h: AS}
   - {t: SPACE, h: NUM}
-  - {t: DELETE, h: BT}
+  - {t: BACKSPACE, h: BT}
   FUNCTION:
   - ''
   - ''
