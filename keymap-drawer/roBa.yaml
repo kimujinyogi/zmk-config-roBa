@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - A
   - S
   - D
   - F
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - {t: RETURN, h: SCROLL}
-  - {t: Z, h: LSHFT}
+  - Z
   - X
   - C
   - V
