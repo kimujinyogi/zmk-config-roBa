@@ -54,16 +54,6 @@
             key-positions = <25 26>;
         };
 
-        grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <8 7>;
-        };
-
-        asterisk {
-            bindings = <&kp ASTRK>;
-            key-positions = <19 18>;
-        };
-
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <1 2>;
