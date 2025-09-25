@@ -71,10 +71,10 @@ layers:
   - ''
   - END
   - PAGE DOWN
-  - INT1
   - ''
   - ''
-  - INT KANA
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -160,8 +160,8 @@ layers:
   - Sft+Gui+F1
   - Gui+Sft+F2
   - Meh+=
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Alt+LEFT
   - LEFT
   - DOWN
@@ -205,8 +205,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+LEFT
-  - Ctl+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
