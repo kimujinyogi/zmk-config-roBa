@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - ':'
+  - ''''
   - ;
   - N
   - M
@@ -45,7 +45,7 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: BACKSPACE, h: BT}
   FUNCTION:
-  - ''
+  - ESCAPE
   - ''
   - ''
   - ''
@@ -311,35 +311,5 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [20, 21]
-  k: ''''
-- p: [25, 26]
-  k: '='
-- p: [1, 2]
-  k: '@'
-- p: [9, 8]
-  k: BACKSPACE
-- p: [1, 0]
-  k: ESCAPE
-- p: [3, 2]
-  k: '"'
-- p: [23, 22]
-  k: Gui+Z
-- p: [23, 24]
-  k: Gui+C
-- p: [24, 25]
-  k: Gui+V
-- p: [22, 23, 24]
-  k: Gui+Sft+Z
-- p: [23, 24, 25]
-  k: Gui+X
-- p: [19, 20]
-  k: ;
-- p: [6, 7]
-  k: '-'
-- p: [17, 18]
-  k: +
 - p: [41, 40]
   k: MOUSE
