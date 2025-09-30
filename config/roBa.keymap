@@ -89,6 +89,13 @@
             #binding-cells = <0>;
             bindings = <&sk LCMD &sk LSHIFT &sk LEFT_ALT>;
         };
+
+        esc_lang2: esc_lang2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp ESC>;
+            label = "ESC_LANG2";
+        };
     };
 
     behaviors {
@@ -119,12 +126,10 @@
         default_layer {
             bindings = <
 &kp Q                  &kp W     &kp E     &kp R      &kp T                                      &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A                  &kp S     &kp D     &kp F      &kp G      &trans           &kp MINUS      &kp H          &kp J  &kp K      &kp L    &lt 5 RETURN
+&kp A                  &kp S     &kp D     &kp F      &kp G      &esc_lang2       &kp MINUS      &kp H          &kp J  &kp K      &kp L    &lt 5 RETURN
 &kp Z                  &kp X     &kp C     &kp V      &kp B      &kp SQT          &kp SEMICOLON  &kp N          &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
 &mt LEFT_SHIFT ESCAPE  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt 1 LANG2      &lt 3 LANG1    &sp_layer_num                             &lt 6 BACKSPACE
             >;
-
-            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
