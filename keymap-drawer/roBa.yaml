@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - '&esc_lang2'
   - '-'
   - H
   - J
