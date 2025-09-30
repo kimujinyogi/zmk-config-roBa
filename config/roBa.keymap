@@ -51,17 +51,6 @@
 
     behaviors {
         // 追加した (j_kim)
-
-        nav_enter_en_3: behavior_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAV_ENTER_EN_3";
-            #binding-cells = <0>;
-            // 押下時：英数(LANG1) → レイヤー3へ
-            bindings = <&kp LANG2 &mo 3>;
-            // 離上時：レイヤー3を解除
-            bindings-release = <&mo 3>;
-        };
-
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
