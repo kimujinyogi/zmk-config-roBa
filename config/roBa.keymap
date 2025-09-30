@@ -62,17 +62,11 @@
             label = "SP";
         };
 
-        ctrl_n_shift: ctrl_n_shift {
+        osm_ctrl_shift: osm_ctrl_shift {
+            label = "OSM_CTRL_SHIFT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL &kp LSHIFT>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LCTRL &kp LSHIFT>;
-
-            label = "CTRL_N_SHIFT";
+            bindings = <&sk LCTRL>, <&sk LSHIFT>;
         };
     };
 
