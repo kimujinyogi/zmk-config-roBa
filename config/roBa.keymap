@@ -38,11 +38,6 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
-
-        layermouse {
-            bindings = <&mo 4>;
-            key-positions = <41 40>;
-        };
     };
 
     macros {
@@ -128,10 +123,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
 
