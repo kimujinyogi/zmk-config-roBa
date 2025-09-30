@@ -40,9 +40,9 @@ layers:
   - LCMD
   - LSHFT
   - LCTRL
-  - {t: '&to_layer_0 LANG2', h: FUNCTION}
+  - {t: LANG2, h: FUNCTION}
   - {t: LANG1, h: AS}
-  - {t: SPACE, h: NUM}
+  - '&sp_layer_num'
   - {t: BACKSPACE, h: BT}
   FUNCTION:
   - ESCAPE
@@ -55,11 +55,11 @@ layers:
   - F3
   - F4
   - F5
+  - '&ctrl_shift'
   - ''
   - ''
   - HOME
   - PAGE UP
-  - ''
   - ''
   - F13
   - F6
@@ -67,11 +67,11 @@ layers:
   - F8
   - F9
   - F10
-  - ''
-  - ''
+  - '&ctrl_shift_alt'
+  - '&cmd_shift'
+  - '&cmd_shift_alt'
   - END
   - PAGE DOWN
-  - ''
   - ''
   - ''
   - ''
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '|'
   AS:
   - Meh+Q
@@ -217,8 +217,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
@@ -240,7 +240,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -275,9 +275,9 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - MUTE
   - VOL DN
   - VOL UP
+  - MUTE
   - ''
   - PLAY PAUSE
   - ''
@@ -311,5 +311,3 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
-- p: [41, 40]
-  k: MOUSE
