@@ -42,7 +42,7 @@ layers:
   - LCTRL
   - {t: LANG2, h: FUNCTION}
   - {t: LANG1, h: AS}
-  - '&sp_layer_num'
+  - {t: SPACE, h: '&lang2_mo2_hold'}
   - {t: BACKSPACE, h: BT}
   FUNCTION:
   - ESCAPE
@@ -56,7 +56,7 @@ layers:
   - F4
   - F5
   - '&ctrl_shift'
-  - ''
+  - '&alt_shift'
   - ''
   - HOME
   - PAGE UP
