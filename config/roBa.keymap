@@ -49,7 +49,6 @@
         };
 
         // 追加：ホールド開始でLANG2を一回送信 → レイヤー2を押しっぱなし
-
         lang2_mo2_hold: lang2_mo2_hold {
             compatible = "zmk,behavior-macro";
             label = "LANG2_MO2_HOLD";
@@ -61,8 +60,6 @@
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 2>;
-
-            // レイヤー2を解放
         };
 
         ctrl_shift: osm_ctrl_shift {
@@ -110,20 +107,16 @@
 
     behaviors {
         // 追加：SPACEのHold-Tap（Tap=SPACE / Hold=上のマクロ）
-
         space_ht_lang2_mo2: space_ht_lang2_mo2 {
             compatible = "zmk,behavior-hold-tap";
             label = "SPACE_HT_LANG2_MO2";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;   // 好みで180–250ms調整可
-            flavor = "tap-preferred";  // あいまい時は必ずTap（=SPACE）を優先
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
             bindings = <&lang2_mo2_hold>, <&kp>;
-
-            // 順序：Hold, Tap
         };
 
         // 追加した (j_kim)
-
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
