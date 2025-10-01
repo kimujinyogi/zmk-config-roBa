@@ -42,7 +42,7 @@ layers:
   - LCTRL
   - {t: LANG2, h: FUNCTION}
   - {t: LANG1, h: AS}
-  - {t: SPACE, h: '&lang2_mo2_hold'}
+  - {t: SPACE, h: NUM}
   - {t: BACKSPACE, h: BT}
   FUNCTION:
   - ESCAPE
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '|'
   AS:
   - Meh+Q
