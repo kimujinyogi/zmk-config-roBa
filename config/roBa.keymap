@@ -61,7 +61,8 @@
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 2>;
-               // レイヤー2を解放
+
+            // レイヤー2を解放
         };
 
         ctrl_shift: osm_ctrl_shift {
@@ -115,9 +116,10 @@
             label = "SPACE_HT_LANG2_MO2";
             #binding-cells = <0>;
             tapping-term-ms = <200>;   // 好みで180–250ms調整可
-            flavor = "balanced";  // あいまい時は必ずTap（=SPACE）を優先
-            bindings = <&lang2_mo2_hold>, <&kp SPACE>;
- // 順序：Hold, Tap
+            flavor = "tap-preferred";  // あいまい時は必ずTap（=SPACE）を優先
+            bindings = <&lang2_mo2_hold>, <&kp>;
+
+            // 順序：Hold, Tap
         };
 
         // 追加した (j_kim)
