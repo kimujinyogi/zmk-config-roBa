@@ -124,9 +124,9 @@
         default_layer {
             bindings = <
 &kp Q                  &kp W     &kp E     &kp R      &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A                  &kp S     &kp D     &kp F      &kp G      &kp ESCAPE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &lt 5 RETURN
+&kp A                  &kp S     &kp D     &kp F      &kp G      &kp ESCAPE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &lt 2 RETURN
 &kp Z                  &kp X     &kp C     &kp V      &kp B      &kp SQT          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&mt LEFT_SHIFT ESCAPE  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt 2 LANG2      &lt 4 LANG1    &lt 3 SPACE                             &lt 6 BACKSPACE
+&mt LEFT_SHIFT ESCAPE  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt 3 LANG2      &lt 5 LANG1    &lt 4 SPACE                             &lt 6 BACKSPACE
             >;
         };
 
@@ -136,6 +136,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
 
@@ -163,15 +172,6 @@
 &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans      &trans  &kp LC(LG(LEFT))  &kp LS(LG(LEFT_BRACKET))  &kp UP    &kp LG(LS(RIGHT_BRACKET))  &kp LG(LC(RIGHT))
 &kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LG(F1))      &kp LG(LS(F2))        &kp LC(LA(LS(EQUAL)))  &trans      &trans  &kp LG(LA(LEFT))  &kp LEFT                  &kp DOWN  &kp RIGHT                  &kp LA(LG(RIGHT))
 &trans             &trans             &trans              &trans                &trans                 &trans      &trans  &trans                                                                           &kp DELETE
-            >;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
 
