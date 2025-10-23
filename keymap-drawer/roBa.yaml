@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - {t: ESCAPE, h: LEFT SHIFT}
+  - LEFT SHIFT
   - LALT
   - LCMD
   - LSHFT
