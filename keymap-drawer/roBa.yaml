@@ -204,13 +204,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - +
+  - {t: ▽, type: trans}
   - '='
+  - \
   - '['
   - ']'
   - '{'
   - '}'
-  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '|'
+  - {t: ▽, type: trans}
   AS:
   - Meh+Q
   - Meh+W
@@ -250,11 +250,11 @@ layers:
   - Meh+=
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+LEFT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
-  - Alt+Gui+RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
