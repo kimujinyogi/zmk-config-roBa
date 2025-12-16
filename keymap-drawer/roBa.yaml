@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - LEFT SHIFT
+  - {t: TAB, h: LEFT SHIFT}
   - LALT
   - LCMD
   - LSHFT
@@ -294,11 +294,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Alt+LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+RIGHT ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
