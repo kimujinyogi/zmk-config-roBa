@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - ESCAPE
-  - LANG5
+  - LANG1
   - H
   - J
   - K
@@ -355,3 +355,5 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
+- p: [12, 13]
+  k: Sft+TAB
