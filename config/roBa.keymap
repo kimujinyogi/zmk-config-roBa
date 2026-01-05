@@ -40,6 +40,11 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
+
+        shift-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+        };
     };
 
     macros {
