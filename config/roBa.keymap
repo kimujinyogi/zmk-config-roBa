@@ -123,10 +123,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W     &kp E     &kp R      &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A               &kp S     &kp D     &kp F      &kp G      &kp ESCAPE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &lt 2 RETURN
-&kp Z               &kp X     &kp C     &kp V      &kp B      &kp SQT          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt 3 LANG2      &lt 5 LANG1    &lt 4 SPACE                             &lt 7 BACKSPACE
+&kp Q           &kp W     &kp E     &kp R      &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S     &kp D     &kp F      &kp G      &kp ESCAPE       &kp LANG5        &kp H        &kp J  &kp K      &kp L    &lt 2 SEMICOLON
+&kp Z           &kp X     &kp C     &kp V      &kp B      &kp LANG2        &ctrl_shift_alt  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
+&kp LEFT_SHIFT  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt 3 SPACE      &lt 5 SPACE      &lt 4 ENTER                             &lt 7 BACKSPACE
             >;
         };
 
@@ -150,28 +150,28 @@
 
         FUNCTION {
             bindings = <
-&none                   &none                  &none              &none     &none                              &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp LC(LA(LS(RETURN)))  &kp LS(LA(J))          &kp LA(LS(SPACE))  &kp HOME  &kp PAGE_UP    &none      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp LS(LA(LC(O)))       &kp LS(LA(LC(LG(C))))  &kp LS(LC(LG(A)))  &kp END   &kp PAGE_DOWN  &none      &none    &none   &none   &none   &none   &kp F11
-&none                   &none                  &none              &none     &none          &none      &none    &none                           &kp F12
+&none  &none                  &none              &none     &none                              &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&none  &kp LS(LA(J))          &kp LA(LS(SPACE))  &kp HOME  &kp PAGE_UP    &none      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&none  &kp LS(LA(LC(LG(C))))  &kp LS(LC(LG(A)))  &kp END   &kp PAGE_DOWN  &none      &none    &none   &none   &none   &none   &kp F11
+&none  &none                  &none              &none     &none          &none      &none    &none                           &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp N1    &kp N2    &kp N3    &kp N4    &kp N5                               &kp N6         &kp N7            &kp N8             &kp N9          &kp N0
-&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp TILDE      &kp GRAVE  &kp CARET      &kp AMPS          &kp STAR           &kp LPAR        &kp RPAR
-&kp TAB   &kp PIPE  &trans    &trans    &trans     &to 0          &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans    &trans    &trans    &trans    &trans     &trans         &trans     &trans                                                              &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                      &kp N6     &kp N7     &kp N8     &kp N9    &kp N0
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp CARET  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp GRAVE  &kp BSLH   &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
         };
 
         AS {
             bindings = <
-&kp LS(LA(LC(Q)))  &kp LS(LA(LC(W)))  &trans              &trans                &trans                                     &trans            &kp LG(LEFT_BRACKET)      &trans    &kp LG(RIGHT_BRACKET)      &kp BSPC
-&kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans      &trans  &kp LC(LG(LEFT))  &kp LS(LG(LEFT_BRACKET))  &kp UP    &kp LG(LS(RIGHT_BRACKET))  &kp LG(LC(RIGHT))
-&kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LG(F1))      &kp LG(LS(F2))        &kp LC(LA(LS(EQUAL)))  &trans      &trans  &trans            &kp LEFT                  &kp DOWN  &kp RIGHT                  &trans
-&trans             &trans             &trans              &trans                &trans                 &trans      &trans  &trans                                                                           &kp DELETE
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)       &kp LS(DLLR)          &kp LS(PRCNT)                              &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)
+&kp TAB       &trans      &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP        &kp RIGHT_ARROW  &trans
+&kp CAPS      &trans      &kp LS(LG(F1))      &kp LG(LS(F2))        &kp LC(LA(LS(EQUAL)))  &trans      &trans  &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(UP)    &kp LS(RIGHT)    &trans
+&trans        &trans      &trans              &trans                &trans                 &trans      &trans  &trans                                                         &kp DELETE
             >;
         };
 
