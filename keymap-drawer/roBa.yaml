@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - ESCAPE
-  - LANG1
+  - '&ctrl_shift_alt'
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - LANG2
-  - '&ctrl_shift_alt'
+  - LANG1
   - N
   - M
   - ','
@@ -41,9 +41,9 @@ layers:
   - LSHFT
   - LCTRL
   - {t: SPACE, h: FUNCTION}
-  - {t: SPACE, h: AS}
+  - {t: BACKSPACE, h: AS}
   - {t: ENTER, h: NUM}
-  - {t: BACKSPACE, h: BT}
+  - {t: DELETE, h: BT}
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,12 +205,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - '`'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGUI
+  - RALT
+  - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - RCTRL
   AS:
   - Sft+!
   - Sft+@
