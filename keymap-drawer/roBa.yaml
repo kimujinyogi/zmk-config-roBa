@@ -17,32 +17,32 @@ layers:
   - F
   - G
   - ESCAPE
-  - '-'
+  - LANG5
   - H
   - J
   - K
   - L
-  - {t: RETURN, h: SCROLL}
+  - {t: ;, h: SCROLL}
   - Z
   - X
   - C
   - V
   - B
-  - ''''
-  - ;
+  - LANG2
+  - '&ctrl_shift_alt'
   - N
   - M
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - {t: TAB, h: LEFT SHIFT}
+  - LEFT SHIFT
   - LALT
   - LCMD
   - LSHFT
   - LCTRL
-  - {t: LANG2, h: FUNCTION}
-  - {t: LANG1, h: AS}
-  - {t: SPACE, h: NUM}
+  - {t: SPACE, h: FUNCTION}
+  - {t: SPACE, h: AS}
+  - {t: ENTER, h: NUM}
   - {t: BACKSPACE, h: BT}
   MOUSE:
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - F3
   - F4
   - F5
-  - Meh+RETURN
+  - ''
   - Sft+Alt+J
   - Alt+Sft+SPACE
   - HOME
@@ -155,7 +155,7 @@ layers:
   - F8
   - F9
   - F10
-  - Meh+O
+  - ''
   - Hyper+C
   - Sft+Ctl+Gui+A
   - END
@@ -187,30 +187,30 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - '~'
-  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - TAB
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - '-'
   - '='
-  - \
   - '['
   - ']'
-  - '{'
-  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,39 +221,39 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   AS:
-  - Meh+Q
-  - Meh+W
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
+  - TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+[
-  - {t: ▽, type: trans}
-  - Gui+]
-  - BSPC
-  - Meh+A
-  - Meh+S
   - Gui+Sft+Ctl+4
   - Sft+Gui+4
   - Meh+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT
-  - Sft+Gui+[
+  - LEFT ARROW
+  - DOWN ARROW
   - UP
-  - Gui+Sft+]
-  - Gui+Ctl+RIGHT
-  - Meh+Z
-  - Meh+X
+  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - CAPS
+  - {t: ▽, type: trans}
   - Sft+Gui+F1
   - Gui+Sft+F2
   - Meh+=
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+UP
+  - Sft+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
