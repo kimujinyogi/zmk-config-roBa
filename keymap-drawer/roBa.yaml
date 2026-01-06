@@ -208,9 +208,9 @@ layers:
   - SPACE
   - '`'
   - \
-  - RGUI
-  - RALT
-  - RSHFT
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - RCTRL
+  - {t: ▽, type: trans}
   AS:
   - Sft+!
   - Sft+@
@@ -242,7 +242,7 @@ layers:
   - DOWN ARROW
   - UP
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - CAPS
   - {t: ▽, type: trans}
   - Sft+Gui+F1
