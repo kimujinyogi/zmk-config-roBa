@@ -174,7 +174,7 @@
         AS {
             bindings = <
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)       &kp LS(DLLR)          &kp LS(PRCNT)                              &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)
-&kp TAB       &trans      &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP        &kp RIGHT_ARROW  &trans
+&kp TAB       &trans      &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &kp LC(LA(LS(MINUS)))  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP        &kp RIGHT_ARROW  &kp BACKSPACE
 &kp CAPS      &trans      &kp LS(LG(F1))      &kp LG(LS(F2))        &kp LC(LA(LS(EQUAL)))  &trans      &trans  &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(UP)    &kp LS(RIGHT)    &trans
 &trans        &trans      &trans              &trans                &trans                 &trans      &trans  &trans                                                         &kp DELETE
             >;
