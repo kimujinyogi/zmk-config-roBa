@@ -166,7 +166,7 @@
             bindings = <
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                               &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)      &kp LS(RPAR)
 &kp N1        &kp N2      &kp N3         &kp N4        &kp N5         &trans      &ctrl_shift_alt  &kp GRAVE      &kp CARET     &kp EQUAL     &kp SQT           &trans
-&kp N6        &kp N7      &kp N8         &kp N9        &kp N0         &trans      &sl 6            &trans         &kp BSLH      &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp N6        &kp N7      &kp N8         &kp N9        &kp N0         &trans      &sl 6            &kp BACKSLASH  &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans        &trans      &trans         &trans        &trans         &trans      &trans           &trans                                                       &trans
             >;
         };
@@ -182,10 +182,10 @@
 
         TEMP {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &trans     &trans        &trans    &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(UNDERSCORE)  &kp TILDE  &trans        &kp PLUS  &kp DOUBLE_QUOTES  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp COLON           &trans     &kp LS(PIPE)  &trans    &kp LS(LBRC)       &kp LS(RBRC)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                                &trans
+&trans  &trans  &trans  &trans  &trans                                  &trans        &trans  &trans    &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(UNDERSCORE)  &kp TILDE     &trans  &kp PLUS  &kp DOUBLE_QUOTES  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp COLON           &kp LS(PIPE)  &trans  &trans    &kp LS(LBRC)       &kp LS(RBRC)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                             &trans
             >;
         };
 
