@@ -22,13 +22,13 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: SCROLL}
+  - {t: RETURN, h: SCROLL}
   - Z
   - X
   - C
   - V
   - B
-  - LANG2
+  - TEMP
   - LANG1
   - N
   - M
@@ -40,9 +40,9 @@ layers:
   - LCMD
   - LSHFT
   - LCTRL
-  - {t: SPACE, h: FUNCTION}
+  - {t: LANG2, h: FUNCTION}
   - {t: BACKSPACE, h: AS}
-  - {t: ENTER, h: NUM}
+  - {t: SPACE, h: NUM}
   - {t: DELETE, h: BT}
   MOUSE:
   - {t: ▽, type: trans}
@@ -95,6 +95,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+[
+  - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,12 +106,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Ctl+LEFT ARROW
+  - Gui+Sft+[
+  - Gui+Sft+]
+  - Gui+Ctl+RIGHT ARROW
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+F1
+  - Gui+Sft+F2
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
@@ -177,50 +177,6 @@ layers:
   - ''
   - F12
   NUM:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ^
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SPACE
-  - '`'
-  - \
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  AS:
   - Sft+!
   - Sft+@
   - Sft+#
@@ -231,23 +187,67 @@ layers:
   - Sft+*
   - Sft+(
   - Sft+)
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - ^
+  - '='
+  - ''''
+  - ;
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - \
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  AS:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACKSPACE
   - TAB
   - {t: ▽, type: trans}
   - Gui+Sft+Ctl+4
   - Sft+Gui+4
-  - Meh+-
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - UP
   - RIGHT ARROW
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - CAPS
   - {t: ▽, type: trans}
-  - Sft+Gui+F1
-  - Gui+Sft+F2
-  - Meh+=
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+LEFT
@@ -264,7 +264,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - DELETE
-  SHORTCUT:
+  TEMP:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -282,23 +282,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - _
+  - {t: ▽, type: trans}
+  - +
+  - '"'
+  - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
+  - '~'
+  - Sft+|
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Alt+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Alt+RIGHT ARROW
-  - Gui+RIGHT ARROW
+  - Sft+{
+  - Sft+}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
