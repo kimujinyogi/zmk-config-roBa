@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - ESCAPE
-  - '&ctrl_shift_alt'
+  - '-'
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - TEMP
-  - LANG1
+  - ;
   - N
   - M
   - ','
@@ -41,9 +41,9 @@ layers:
   - LSHFT
   - LCTRL
   - {t: LANG2, h: FUNCTION}
-  - {t: BACKSPACE, h: AS}
+  - {t: LANG1, h: AS}
   - {t: SPACE, h: NUM}
-  - {t: DELETE, h: BT}
+  - {t: BACKSPACE, h: BT}
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -149,7 +149,7 @@ layers:
   - HOME
   - PAGE UP
   - ''
-  - F13
+  - ''
   - F6
   - F7
   - F8
@@ -162,11 +162,11 @@ layers:
   - PAGE DOWN
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - F11
+  - F12
+  - F13
+  - F14
+  - F15
   - ''
   - ''
   - ''
@@ -175,7 +175,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - F12
+  - ''
   NUM:
   - Sft+!
   - Sft+@
@@ -193,20 +193,20 @@ layers:
   - '4'
   - '5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
+  - '&ctrl_shift_alt'
+  - '`'
   - ^
   - '='
   - ''''
-  - ;
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - {t: ▽, type: trans}
+  - {t: TEMP, h: sticky}
   - {t: ▽, type: trans}
-  - '`'
   - \
   - {t: ▽, type: trans}
   - '['
@@ -281,20 +281,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
+  - Sft+_
+  - '~'
   - {t: ▽, type: trans}
   - +
   - '"'
-  - ':'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - ':'
   - {t: ▽, type: trans}
-  - '~'
   - Sft+|
   - {t: ▽, type: trans}
   - Sft+{
