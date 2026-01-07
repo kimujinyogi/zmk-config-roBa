@@ -206,8 +206,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: TEMP, h: sticky}
-  - {t: ▽, type: trans}
   - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -294,8 +294,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - ':'
-  - {t: ▽, type: trans}
   - Sft+|
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+{
   - Sft+}
