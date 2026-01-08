@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - TEMP
-  - ;
+  - LANG1
   - N
   - M
   - ','
@@ -41,7 +41,7 @@ layers:
   - LSHFT
   - LCTRL
   - {t: LANG2, h: FUNCTION}
-  - {t: LANG1, h: AS}
+  - {t: RIGHT SHIFT, h: AS}
   - {t: SPACE, h: NUM}
   - {t: BACKSPACE, h: BT}
   MOUSE:
@@ -198,14 +198,14 @@ layers:
   - ^
   - '='
   - ''''
-  - {t: ▽, type: trans}
+  - ;
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: TEMP, h: sticky}
+  - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -242,14 +242,14 @@ layers:
   - {t: ▽, type: trans}
   - +
   - '"'
-  - '5'
+  - ':'
   - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ':'
+  - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
