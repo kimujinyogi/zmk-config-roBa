@@ -173,19 +173,19 @@
 
         AS {
             bindings = <
-&trans    &trans  &trans              &trans                &trans                      &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &kp BACKSPACE
-&kp TAB   &trans  &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &trans  &trans      &trans  &kp N1  &kp N2                &kp N3                 &kp N4  &kp N5
-&kp CAPS  &trans  &trans              &trans                &trans  &trans      &trans  &kp N6  &kp N7                &kp N8                 &kp N9  &kp N0
-&trans    &trans  &trans              &trans                &trans  &trans      &trans  &trans                                                       &kp DELETE
+&trans    &trans  &trans              &trans                &trans                         &trans     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans    &kp BACKSPACE
+&kp TAB   &trans  &kp LG(LS(LC(N4)))  &kp LS(LG(NUMBER_4))  &trans  &trans      &kp UNDER  &kp TILDE  &trans                &kp PLUS               &kp DQT   &kp N5
+&kp CAPS  &trans  &trans              &trans                &trans  &trans      &kp COLON  &kp PIPE   &trans                &trans                 &kp LBRC  &kp RBRC
+&trans    &trans  &trans              &trans                &trans  &trans      &trans     &trans                                                            &kp DELETE
             >;
         };
 
         TEMP {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &trans        &trans  &trans    &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(UNDERSCORE)  &kp TILDE     &trans  &kp PLUS  &kp DOUBLE_QUOTES  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp COLON           &kp LS(PIPE)  &trans  &trans    &kp LS(LBRC)       &kp LS(RBRC)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                             &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RALT  &kp RGUI  &kp RSHFT  &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                 &trans
             >;
         };
 
