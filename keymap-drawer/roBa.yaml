@@ -41,7 +41,7 @@ layers:
   - LSHFT
   - LCTRL
   - {t: LANG2, h: FUNCTION}
-  - {t: RIGHT SHIFT, h: AS}
+  - AS
   - {t: SPACE, h: NUM}
   - {t: BACKSPACE, h: BT}
   MOUSE:
