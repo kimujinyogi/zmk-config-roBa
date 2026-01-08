@@ -237,11 +237,11 @@ layers:
   - Sft+Gui+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - _
+  - '~'
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
+  - +
+  - '"'
   - '5'
   - CAPS
   - {t: ▽, type: trans}
@@ -249,12 +249,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ':'
+  - '|'
   - {t: ▽, type: trans}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -281,11 +281,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+_
-  - '~'
   - {t: ▽, type: trans}
-  - +
-  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -293,12 +293,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ':'
-  - Sft+|
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+{
-  - Sft+}
+  - RALT
+  - RGUI
+  - RSHFT
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
