@@ -191,10 +191,10 @@
 
         TEMP {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RALT  &kp RGUI  &kp RSHFT  &kp RCTRL
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                 &trans
+&trans  &trans  &trans  &trans  &trans                      &trans          &trans          &mmv MOVE_UP  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &kp RALT        &kp RGUI      &kp RSHFT        &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                         &trans
             >;
         };
 
