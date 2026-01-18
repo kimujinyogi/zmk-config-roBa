@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - ESCAPE
-  - '-'
+  - '&ctrl_shift_alt'
   - H
   - J
   - K
@@ -133,7 +133,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUNCTION:
-  - ''
+  - ESC
   - ''
   - ''
   - ''
@@ -143,7 +143,7 @@ layers:
   - F3
   - F4
   - F5
-  - ''
+  - TAB
   - Sft+Alt+J
   - Alt+Sft+SPACE
   - HOME
@@ -193,9 +193,9 @@ layers:
   - '4'
   - '5'
   - {t: ▽, type: trans}
-  - '&ctrl_shift_alt'
-  - '`'
   - {t: ▽, type: trans}
+  - '`'
+  - '-'
   - '='
   - ''''
   - ;
@@ -221,7 +221,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   AS:
-  - {t: ▽, type: trans}
+  - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -237,13 +237,13 @@ layers:
   - Sft+Gui+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
-  - '~'
   - {t: ▽, type: trans}
+  - '~'
+  - _
   - +
   - '"'
   - ':'
-  - CAPS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -282,9 +282,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -357,3 +357,5 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
+- p: [18, 19]
+  k: '-'
