@@ -194,8 +194,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
   - '-'
+  - '`'
   - '='
   - ''''
   - ;
@@ -206,8 +206,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
   - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -238,8 +238,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '~'
   - _
+  - '~'
   - +
   - '"'
   - ':'
@@ -250,8 +250,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
   - {t: ▽, type: trans}
+  - '|'
   - {t: ▽, type: trans}
   - '{'
   - '}'
@@ -272,7 +272,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,6 +284,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
