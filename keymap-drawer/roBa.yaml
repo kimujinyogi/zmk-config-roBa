@@ -22,14 +22,14 @@ layers:
   - J
   - K
   - L
-  - {t: RETURN, h: SCROLL}
+  - {t: ;, h: SCROLL}
   - Z
   - X
   - C
   - V
   - B
   - TEMP
-  - LANG1
+  - {t: default, h: toggle}
   - N
   - M
   - ','
@@ -40,9 +40,9 @@ layers:
   - LCMD
   - LSHFT
   - LCTRL
-  - {t: LANG2, h: FUNCTION}
-  - {t: default, h: AS}
-  - {t: SPACE, h: NUM}
+  - {t: ESC, h: FUNCTION}
+  - {t: SPACE, h: AS}
+  - {t: ENTER, h: NUM}
   - {t: BACKSPACE, h: BT}
   MOUSE:
   - {t: ▽, type: trans}
@@ -173,8 +173,8 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
+  - LANG2
+  - LANG1
   - ''
   NUM:
   - '1'
@@ -198,16 +198,16 @@ layers:
   - '`'
   - '='
   - ''''
-  - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -242,16 +242,16 @@ layers:
   - '~'
   - +
   - '"'
-  - ':'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
   - '}'
