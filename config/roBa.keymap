@@ -181,16 +181,16 @@
 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                      &kp N6     &kp N7         &kp N8     &kp N9            &kp N0
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp MINUS  &kp GRAVE      &kp EQUAL  &kp SQT           &kp SEMICOLON
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp BACKSLASH  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                 &kp BACKSPACE
             >;
         };
 
         AS {
             bindings = <
-&kp CAPS  &trans  &trans  &trans  &trans                      &trans     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans    &kp BACKSPACE
-&kp TAB   &trans  &trans  &trans  &trans  &trans      &trans  &kp UNDER  &kp TILDE             &kp PLUS               &kp DQT   &kp COLON
-&trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp PIPE              &trans                 &kp LBRC  &kp RBRC
-&trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                            &kp DELETE
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                      &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
+&kp TAB       &trans      &trans         &trans        &trans         &trans      &trans  &kp UNDER      &kp TILDE     &kp PLUS      &kp DQT       &kp COLON
+&trans        &trans      &trans         &trans        &trans         &trans      &trans  &trans         &kp PIPE      &trans        &kp LBRC      &kp RBRC
+&trans        &trans      &trans         &trans        &trans         &trans      &trans  &trans                                                   &kp DELETE
             >;
         };
 
