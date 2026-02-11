@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
+  - TEMP
   - '&ctrl_shift_alt'
   - H
   - J
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - TEMP
+  - ESC
   - LANG1
   - N
   - M
@@ -280,7 +280,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -292,7 +292,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RALT
