@@ -147,6 +147,8 @@
 &kp Z           &kp X     &kp C     &kp V      &kp B      &kp ESC               &kp LANG1         &kp N             &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
 &kp LEFT_SHIFT  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &lt_fast 3 LANG2      &lt_fast 5 SPACE  &lt_fast 4 SPACE                             &lt 7 BACKSPACE
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         MOUSE {
