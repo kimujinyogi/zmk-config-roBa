@@ -43,7 +43,7 @@ layers:
   - {t: '&to_layer_0 LANG2', h: FUNCTION}
   - {t: SPACE, h: AS}
   - {t: SPACE, h: NUM}
-  - {t: BACKSPACE, h: BT}
+  - BACKSPACE
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -149,7 +149,7 @@ layers:
   - HOME
   - PAGE UP
   - ''
-  - ''
+  - Meh+K
   - F6
   - F7
   - F8
@@ -194,8 +194,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
   - '`'
+  - '-'
   - '='
   - ''''
   - ;
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - ''
   - \
   - <
   - '>'
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - BACKSPACE
+  - DELETE
   AS:
   - Sft+!
   - Sft+@
@@ -238,8 +238,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
   - '~'
+  - _
   - +
   - '"'
   - ':'
@@ -263,7 +263,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
+  - BT
   TEMP:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -349,7 +349,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - {type: held}
   '8':
