@@ -129,8 +129,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+[
+  - Gui+]
   - {t: ▽, type: trans}
   FUNCTION:
   - ''
