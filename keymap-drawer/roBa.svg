@@ -291,9 +291,8 @@ path.combo {
 </g>
 <g transform="translate(333, 247) rotate(20.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
 <a href="#FUNCTION">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">FUNCTION</tspan></text>
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 88%">FUNCTION</tspan></text>
 </a></g>
 <g transform="translate(423, 247) rotate(-20.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -326,6 +325,14 @@ path.combo {
 <text x="588" y="88" class="combo tap">
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -525,6 +532,14 @@ path.combo {
 <text x="588" y="88" class="combo tap">
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -734,6 +749,14 @@ path.combo {
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1017)" class="layer-FUNCTION">
@@ -927,6 +950,14 @@ path.combo {
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-NUM">
@@ -1118,6 +1149,14 @@ path.combo {
 <text x="588" y="88" class="combo tap">
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -1311,6 +1350,14 @@ path.combo {
 <text x="588" y="88" class="combo tap">
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -1512,6 +1559,14 @@ path.combo {
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2372)" class="layer-BT">
@@ -1699,6 +1754,14 @@ path.combo {
 <text x="588" y="88" class="combo tap">
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -1892,6 +1955,14 @@ path.combo {
 <text x="588" y="88" class="combo tap">
 <tspan x="588" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="588" dy="1.2em" style="font-size: 64%">LANG1</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
+<text x="112" y="35" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
+<text x="645" y="35" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
