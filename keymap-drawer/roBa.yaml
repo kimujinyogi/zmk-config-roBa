@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - N
+  - {t: default, h: toggle}
   - B
   - N
   - M
