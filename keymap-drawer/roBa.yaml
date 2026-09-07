@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - ESC
-  - '&to_layer_0 LANG1'
+  - N
+  - B
   - N
   - M
   - ','
@@ -40,7 +40,7 @@ layers:
   - LCMD
   - LSHFT
   - LCTRL
-  - {t: '&to_layer_0 LANG2', h: FUNCTION}
+  - {t: ESCAPE, h: FUNCTION}
   - {t: SPACE, h: AS}
   - {t: SPACE, h: NUM}
   - BACKSPACE
@@ -400,6 +400,6 @@ combos:
 - p: [11, 12]
   k: TAB
 - p: [12, 13]
-  k: Sft+TAB
+  k: '&to_layer_0 LANG2'
 - p: [18, 19]
-  k: '-'
+  k: '&to_layer_0 LANG1'
