@@ -55,11 +55,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <2 1>;
         };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 7>;
-        };
     };
 
     macros {
