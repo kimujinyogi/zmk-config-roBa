@@ -40,7 +40,7 @@ layers:
   - LCMD
   - LSHFT
   - LCTRL
-  - FUNCTION
+  - {t: default, h: FUNCTION}
   - {t: SPACE, h: AS}
   - {t: SPACE, h: NUM}
   - BACKSPACE
@@ -405,5 +405,5 @@ combos:
   k: '&to_layer_0 LANG1'
 - p: [2, 1]
   k: ESCAPE
-- p: [8, 7]
-  k: BACKSPACE
+- p: [10, 11]
+  k: Sft+TAB
