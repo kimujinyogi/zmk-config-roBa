@@ -58,7 +58,7 @@
             require-prior-idle-ms = <150>;
         };
 
-        S-Tab {
+        shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
