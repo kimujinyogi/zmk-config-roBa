@@ -39,16 +39,22 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
         };
 
         eisuu {
             bindings = <&to_layer_0 LANG2>;
             key-positions = <12 13>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
         };
 
         kana {
             bindings = <&to_layer_0 LANG1>;
             key-positions = <18 19>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
         };
 
         esc {
@@ -61,10 +67,28 @@
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <10 11>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+        };
+
+        e_r_esc {
+            bindings = <&eisuu_esc>;
+            key-positions = <2 3>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
         };
     };
 
     macros {
+        eisuu_esc: eisuu_esc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&to 0 &kp LANG2 &kp ESCAPE>;
+            label = "EISUU_ESC";
+        };
+
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
