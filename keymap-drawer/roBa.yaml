@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - {t: RETURN, h: SCROLL}
+  - {t: ;, h: SCROLL}
   - Z
   - X
   - C
@@ -41,7 +41,7 @@ layers:
   - LSHFT
   - LCTRL
   - {t: default, h: FUNCTION}
-  - {t: SPACE, h: AS}
+  - {t: RETURN, h: AS}
   - {t: SPACE, h: NUM}
   - BACKSPACE
   MOUSE:
@@ -242,7 +242,7 @@ layers:
   - _
   - +
   - '"'
-  - '|'
+  - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
