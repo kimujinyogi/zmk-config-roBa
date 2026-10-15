@@ -162,10 +162,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W     &kp E     &kp R      &kp T                                               &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A       &kp S     &kp D     &kp F      &kp G      &mo 6                  &ctrl_shift_alt   &kp H             &kp J  &kp K      &kp L    &lt 2 RETURN
-&kp Z       &kp X     &kp C     &kp V      &kp B      &kp LANG2              &kp LANG1         &kp N             &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&kp ESCAPE  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &HoldTapLayer 3 0      &lt_fast 5 SPACE  &lt_fast 4 SPACE                             &kp BACKSPACE
+&kp Q       &kp W     &kp E     &kp R      &kp T                                                &kp Y             &kp U  &kp I      &kp O    &kp P
+&kp A       &kp S     &kp D     &kp F      &kp G      &mo 6                  &ctrl_shift_alt    &kp H             &kp J  &kp K      &kp L    &lt 2 SEMICOLON
+&kp Z       &kp X     &kp C     &kp V      &kp B      &kp LANG2              &kp LANG1          &kp N             &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
+&kp ESCAPE  &kp LALT  &kp LCMD  &kp LSHFT  &kp LCTRL  &HoldTapLayer 3 0      &lt_fast 5 RETURN  &lt_fast 4 SPACE                             &kp BACKSPACE
             >;
         };
 
@@ -208,7 +208,7 @@
         AS {
             bindings = <
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                      &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
-&trans        &trans      &trans         &trans        &trans         &trans      &trans  &kp TILDE      &kp UNDER     &kp PLUS      &kp DQT       &kp PIPE
+&trans        &trans      &trans         &trans        &trans         &trans      &trans  &kp TILDE      &kp UNDER     &kp PLUS      &kp DQT       &kp COLON
 &trans        &trans      &trans         &trans        &trans         &trans      &trans  &trans         &kp PIPE      &trans        &kp LBRC      &kp RBRC
 &trans        &trans      &trans         &trans        &trans         &trans      &trans  &trans                                                   &mo 7
             >;
