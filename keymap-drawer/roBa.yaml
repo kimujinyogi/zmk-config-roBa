@@ -28,14 +28,14 @@ layers:
   - C
   - V
   - B
-  - {t: default, h: toggle}
-  - B
+  - LANG2
+  - LANG1
   - N
   - M
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - LEFT SHIFT
+  - ESCAPE
   - LALT
   - LCMD
   - LSHFT
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+;
   - '`'
   - '-'
   - '='
@@ -206,9 +206,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
+  - {t: ▽, type: trans}
   - \
-  - <
-  - '>'
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -242,7 +242,8 @@ layers:
   - _
   - +
   - '"'
-  - ':'
+  - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,7 +252,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
   - '}'
@@ -399,11 +399,10 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
+- p: [31, 32]
+  k: '&mkp MB3'
+  l: [MOUSE, SCROLL]
 - p: [12, 13]
-  k: '&to_layer_0 LANG2'
+  k: LANG2
 - p: [18, 19]
-  k: '&to_layer_0 LANG1'
-- p: [2, 1]
-  k: ESCAPE
-- p: [10, 11]
-  k: Sft+TAB
+  k: LANG1
